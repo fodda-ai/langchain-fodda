@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "langchain-fodda"
+version = "1.0.0"
+description = "LangChain custom tool integration for the Fodda Context Layer"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Fodda / PSFK Team", email = "team@fodda.ai"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "langchain-core>=0.1.0",
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://fodda.ai"
+Documentation = "https://fodda.ai/connect"
+Repository = "https://github.com/piers-fawkes/langchain-fodda"
